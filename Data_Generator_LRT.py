@@ -22,6 +22,4 @@ class DataGeneratorLRT:
         self.linear_y = np.array(linear_y_3) + self.intercept
         noise = np.random.normal(10, 3, 100)
         self.linear_y_noise = [linear_y_3[i] + noise[i] for i in range(0, len(noise))]
-
-    def for_josh(self):
-        print('Fuck You')
+       
