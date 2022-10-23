@@ -4,6 +4,6 @@ This project generates a sample data set and goes through linear regression tool
 
 The project begins with the code deisgnated Beginner Linear Regression 1. This notebook generates a data set without noise and a dataset with noise. It then applies simple scikit commands to perform the regression and evaluate the error. At the end of the notebook we'll observe that we'll need the data generator again for future projects, so we make a class that we can access later. 
 
-Code for a class that does data generation for the models is included. The class is packaged and available as package that can be imported in later steps.
+Code for a class that does data generation for the models is included. The class is packaged and available for import to cut down repetition.
 
 In Beginner Linear Regression 2 we undertake the same process, but we use ridge regression.
